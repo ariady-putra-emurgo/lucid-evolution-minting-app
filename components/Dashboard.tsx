@@ -62,8 +62,6 @@ export default function Dashboard(props: {
     AlwaysTrue: {
       mint: async () => {
         try {
-          if (!lucid) throw "Uninitialized Lucid";
-
           const mintingValidator: MintingPolicy = {
             type: "PlutusV2", // TODO: PlutusV3
             script: ScriptV2.MintAlwaysTrue, // TODO: Script (V3)
@@ -90,11 +88,9 @@ export default function Dashboard(props: {
 
       burn: async () => {
         try {
-          if (!lucid) throw "Uninitialized Lucid";
-
           const mintingValidator: MintingPolicy = {
-            type: "PlutusV3",
-            script: Script.MintAlwaysTrue,
+            type: "PlutusV2", // TODO: PlutusV3
+            script: ScriptV2.MintAlwaysTrue, // TODO: Script (V3)
           };
 
           const policyID = mintingPolicyToId(mintingValidator);
@@ -117,8 +113,6 @@ export default function Dashboard(props: {
     CheckRedeemer: {
       mint: async () => {
         try {
-          if (!lucid) throw "Uninitialized Lucid";
-
           const mintingValidator: MintingPolicy = {
             type: "PlutusV2", // TODO: PlutusV3
             script: ScriptV2.MintCheckRedeemer, // TODO: Script (V3)
@@ -145,8 +139,6 @@ export default function Dashboard(props: {
 
       burn: async () => {
         try {
-          if (!lucid) throw "Uninitialized Lucid";
-
           const mintingValidator: MintingPolicy = {
             type: "PlutusV2", // TODO: PlutusV3
             script: ScriptV2.MintCheckRedeemer, // TODO: Script (V3)
@@ -172,8 +164,6 @@ export default function Dashboard(props: {
     CheckRedeemer2: {
       mint: async () => {
         try {
-          if (!lucid) throw "Uninitialized Lucid";
-
           const mintingValidator: MintingPolicy = {
             type: "PlutusV2", // TODO: PlutusV3
             script: ScriptV2.MintCheckRedeemer2, // TODO: Script (V3)
@@ -200,8 +190,6 @@ export default function Dashboard(props: {
 
       burn: async () => {
         try {
-          if (!lucid) throw "Uninitialized Lucid";
-
           const mintingValidator: MintingPolicy = {
             type: "PlutusV2", // TODO: PlutusV3
             script: ScriptV2.MintCheckRedeemer2, // TODO: Script (V3)
@@ -227,8 +215,6 @@ export default function Dashboard(props: {
     NFT: {
       mint: async () => {
         try {
-          if (!lucid) throw "Uninitialized Lucid";
-
           const utxos = await lucid.wallet().getUtxos();
           const utxo = utxos[0];
 
@@ -268,8 +254,6 @@ export default function Dashboard(props: {
 
       burn: async () => {
         try {
-          if (!lucid) throw "Uninitialized Lucid";
-
           const mintingValidator: MintingPolicy = {
             type: "PlutusV2", // TODO: PlutusV3
             script:

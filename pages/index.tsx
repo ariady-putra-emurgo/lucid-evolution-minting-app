@@ -23,7 +23,6 @@ export default function IndexPage() {
 
   useEffect(() => {
     const blockfrost = new Blockfrost(BF_URL, BF_PID);
-
     Lucid(blockfrost, CARDANO_NETWORK).then(setLucid).catch(handleError);
   }, []);
 
