@@ -22,8 +22,8 @@ export default function IndexPage() {
     const errorString = JSON.stringify(error);
     const errorJSON = JSON.parse(errorString);
 
-    const { cause } = errorJSON;
-    const { failure } = cause;
+    const { cause } = errorJSON ?? {};
+    const { failure } = cause ?? {};
 
     const failureCause = failure?.cause;
     const failureInfo = failureCause?.info;
