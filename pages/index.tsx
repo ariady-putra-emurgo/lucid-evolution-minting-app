@@ -31,11 +31,9 @@ export default function IndexPage() {
       if (!lucid) throw "Uninitialized Lucid";
 
       const api = await wallet.enable();
-
       lucid.selectWallet.fromAPI(api);
 
       const address = await lucid.wallet().address();
-
       setAddress(address);
     } catch (error) {
       handleError(error);
