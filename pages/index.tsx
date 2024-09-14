@@ -17,8 +17,20 @@ export default function IndexPage() {
   const [result, setResult] = useState("");
 
   function handleError(error: any) {
-    console.log(error);
-    setResult("An error occured, see console.log");
+    const { info, message } = error;
+
+    const errorString = JSON.stringify(error);
+    const errorJSON = JSON.parse(errorString);
+
+    const { cause } = errorJSON;
+    const { failure } = cause;
+
+    const failureCause = failure?.cause;
+    const failureInfo = failureCause?.info;
+    const failureMessage = failureCause?.message;
+
+    setResult(`${failureInfo ?? failureMessage ?? info ?? message ?? error}`);
+    console.error(failureCause ?? { error });
   }
 
   useEffect(() => {
