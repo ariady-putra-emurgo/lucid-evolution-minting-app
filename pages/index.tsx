@@ -19,10 +19,18 @@ export default function IndexPage() {
   function handleError(error: any) {
     const { info, message } = error;
 
-    const errorString = JSON.stringify(error);
-    const errorJSON = JSON.parse(errorString);
+    function toJSON(error: any) {
+      try {
+        const errorString = JSON.stringify(error);
+        const errorJSON = JSON.parse(errorString);
 
-    const { cause } = errorJSON ?? {};
+        return errorJSON;
+      } catch {
+        return {};
+      }
+    }
+
+    const { cause } = toJSON(error);
     const { failure } = cause ?? {};
 
     const failureCause = failure?.cause;
