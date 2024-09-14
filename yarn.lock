@@ -7,15 +7,15 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@anastasia-labs/cardano-multiplatform-lib-browser@6.0.2-1":
-  version "6.0.2-1"
-  resolved "https://registry.yarnpkg.com/@anastasia-labs/cardano-multiplatform-lib-browser/-/cardano-multiplatform-lib-browser-6.0.2-1.tgz#49e1d5a96eb3b1ea0de677eac8810cd88df52273"
-  integrity sha512-MypiWF3VUVNSEkfpDVnwx1Gju2UIbEtWMfnwwM8SNfVYTh8vALbIFyRQNbJbNP95OTSi87cPMGMb7/itpeB70w==
+"@anastasia-labs/cardano-multiplatform-lib-browser@6.0.2-2":
+  version "6.0.2-2"
+  resolved "https://registry.yarnpkg.com/@anastasia-labs/cardano-multiplatform-lib-browser/-/cardano-multiplatform-lib-browser-6.0.2-2.tgz#2ab75fd2a7afe5941c9ab8497733d08f51f407a8"
+  integrity sha512-sSPPjO1Zye82YVqrUGIKrli/Zt2pPkZkQd/jv9k6AzjIZdNPD3hvuB2yH6RHeZUO8+K57bu9r7Rlyf7VGbhhTQ==
 
-"@anastasia-labs/cardano-multiplatform-lib-nodejs@6.0.2-1":
-  version "6.0.2-1"
-  resolved "https://registry.yarnpkg.com/@anastasia-labs/cardano-multiplatform-lib-nodejs/-/cardano-multiplatform-lib-nodejs-6.0.2-1.tgz#08b9ab121fd0b39dad3bf4f875dce676524a8f48"
-  integrity sha512-HzXrxx3fyrZ/04wIbBbRBVHsX1CXLLMvG48aUlJmlbxJKFki/HsKgVhhoYdlsCQESo7EBZNeRHuqg9IqqaacUQ==
+"@anastasia-labs/cardano-multiplatform-lib-nodejs@6.0.2-2":
+  version "6.0.2-2"
+  resolved "https://registry.yarnpkg.com/@anastasia-labs/cardano-multiplatform-lib-nodejs/-/cardano-multiplatform-lib-nodejs-6.0.2-2.tgz#dbbf186ab1f889865da4fd0b851cc8205ba84c8c"
+  integrity sha512-KLYHyJWtFsTUUbIVz9dn5GiCbI4Mrx5mRpDWXa3lVLWFKok6AkvYlyHk4OH4NNa4JBerrHTB6ZJrk75UgKAaMA==
 
 "@babel/runtime@^7.20.13":
   version "7.25.6"
@@ -53,16 +53,6 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@emurgo/cardano-message-signing-nodejs/-/cardano-message-signing-nodejs-1.0.1.tgz#b2fa1f7541055a6c4b8e805492b1a9362bea5835"
   integrity sha512-PoKh1tQnJX18f8iEr8Jk1KXxKCn9eqaSslMI1pyOJvYRJhQVDLCh0+9YReufjp0oFJIY1ShcrR+4/WnECVZUKQ==
-
-"@emurgo/cardano-serialization-lib-browser@^11.5.0":
-  version "11.5.0"
-  resolved "https://registry.yarnpkg.com/@emurgo/cardano-serialization-lib-browser/-/cardano-serialization-lib-browser-11.5.0.tgz#f2d15b538add436e0aa8b67a1d00ca654a680006"
-  integrity sha512-qchOJ9NYDUz10tzs5r5QhP9hK0p+ZOlRiBwPdTAxqAYLw/8emYBkQQLaS8T1DF6EkeudyrgS00ym5Trw1fo4iA==
-
-"@emurgo/cardano-serialization-lib-nodejs@^11.5.0":
-  version "11.5.0"
-  resolved "https://registry.yarnpkg.com/@emurgo/cardano-serialization-lib-nodejs/-/cardano-serialization-lib-nodejs-11.5.0.tgz#0662e2a17d7d1e944f8cdb86396133c8edaec059"
-  integrity sha512-IlVABlRgo9XaTR1NunwZpWcxnfEv04ba2l1vkUz4S1W7Jt36F4CtffP+jPeqBZGnAe+fnUwo0XjIJC3ZTNToNQ==
 
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"
@@ -303,121 +293,119 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lucid-evolution/core-types@0.1.17", "@lucid-evolution/core-types@^0.1.17":
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/core-types/-/core-types-0.1.17.tgz#df35f27380e65e9db9777accd6a14ac8df9a6d0d"
-  integrity sha512-n/VuIaUMmbZ4V0nA05EdyyCluLUo0cQVsyp81eKEwBY9ywCLWfCdivP0qM25FruMZfbHhG91CaeeIzHHfY5RFA==
+"@lucid-evolution/core-types@0.1.20", "@lucid-evolution/core-types@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/core-types/-/core-types-0.1.20.tgz#7c1595a46207ab82dff4206a83054f4067cb3d94"
+  integrity sha512-g0dNrAZIJFeKe8GjrEZQrkQLSVLt1CzA9Pgqd9FotyW3rpID2ZWprO/qVRtysqFR7oxez8V1+pL8buFU8bF36g==
   dependencies:
-    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-1"
-    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-1"
+    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-2"
+    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-2"
 
-"@lucid-evolution/core-utils@0.1.15", "@lucid-evolution/core-utils@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/core-utils/-/core-utils-0.1.15.tgz#6338e1d622c2ff2ee5b972d8acabf636aa7ce9af"
-  integrity sha512-DlRy+B8Fvv8TOrWhYltqhDVtSoxnHPod0K02rT1JQHN00M8oNcOv+je8X+QI+6pMTbXLCs2d0+rhLmV9zfyx8A==
+"@lucid-evolution/core-utils@0.1.16", "@lucid-evolution/core-utils@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/core-utils/-/core-utils-0.1.16.tgz#dace019eb10d75aa92148e48604c5230ced14e94"
+  integrity sha512-fNKZiGl1h6tf48bji067uxHZpDlhkrIDrwhZLt5DQC/c6GVdZb4TSvqgs7MOmMqp1dj9dy6NDYWnCHeTqZAhJw==
   dependencies:
-    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-1"
-    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-1"
+    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-2"
+    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-2"
 
 "@lucid-evolution/crc8@0.1.8":
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/@lucid-evolution/crc8/-/crc8-0.1.8.tgz#4faaca485bb7e1f0cbb936f684ecbeb45bdebd29"
   integrity sha512-88+/S6n+sPgxYtG05rvbJDVb8MoFGzckkR3p26uGrzngYzlJGfxBWIzNhVwfI2mgINPo2C5lkZW3GYnfY0MjuA==
 
-"@lucid-evolution/lucid@^0.3.26":
-  version "0.3.26"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/lucid/-/lucid-0.3.26.tgz#1d86c78ff7d684a02c67ae9dfc9eb557656d9d39"
-  integrity sha512-if1k8d3kNX2kFypWqbrLGXTskKviOR/FvUmQp+eDw61Kn03fNaTCv2b3KCSK1Sl0x7ULejIm4U9heZRJj9eOmw==
+"@lucid-evolution/lucid@^0.3.36":
+  version "0.3.36"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/lucid/-/lucid-0.3.36.tgz#6bb8ca057c3070dd8e71725559ee77f928d1eec6"
+  integrity sha512-SWQQkj9cegVYbcfNzt15E9XuEC1uj+QYUeTNxPO9RjYiTmay9XIT3mAo8V/UnYvgfoo9eSHFxsQnBYnTKRxhTA==
   dependencies:
-    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-1"
-    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-1"
+    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-2"
+    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-2"
     "@effect/schema" "^0.66.14"
     "@emurgo/cardano-message-signing-nodejs" "^1.0.1"
-    "@lucid-evolution/core-types" "0.1.17"
-    "@lucid-evolution/core-utils" "0.1.15"
-    "@lucid-evolution/plutus" "0.1.23"
-    "@lucid-evolution/provider" "0.1.52"
-    "@lucid-evolution/sign_data" "0.1.20"
-    "@lucid-evolution/uplc" "0.2.11"
-    "@lucid-evolution/utils" "0.1.39"
-    "@lucid-evolution/wallet" "0.1.44"
+    "@lucid-evolution/core-types" "0.1.20"
+    "@lucid-evolution/core-utils" "0.1.16"
+    "@lucid-evolution/plutus" "0.1.26"
+    "@lucid-evolution/provider" "0.1.60"
+    "@lucid-evolution/sign_data" "0.1.23"
+    "@lucid-evolution/uplc" "0.2.13"
+    "@lucid-evolution/utils" "0.1.45"
+    "@lucid-evolution/wallet" "0.1.51"
     effect "^3.5.6"
 
-"@lucid-evolution/plutus@0.1.23", "@lucid-evolution/plutus@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/plutus/-/plutus-0.1.23.tgz#fbb1ad3ceeb97206670fbec97e4424a1d33027ad"
-  integrity sha512-7NDob2H4/hics9b4OTnvhBZ/umV9Yg68L8W90O/SlDx1bJJsvFHwoLtx9edAXToaks93C4yTM30yNdLmIcrL6w==
+"@lucid-evolution/plutus@0.1.26", "@lucid-evolution/plutus@^0.1.26":
+  version "0.1.26"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/plutus/-/plutus-0.1.26.tgz#72d39793ef294ad52c9ed83ef3ae30b2f4883f7e"
+  integrity sha512-HVSVTsklFO0YB084BkoRCiHUz5gNHmZrV8RB5QOgIXULv4kmmIfUssVNF7CB/2LxXyywQ8feAtG6R94AyFw+VQ==
   dependencies:
-    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-1"
-    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-1"
-    "@lucid-evolution/core-types" "0.1.17"
-    "@lucid-evolution/core-utils" "0.1.15"
+    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-2"
+    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-2"
+    "@lucid-evolution/core-types" "0.1.20"
+    "@lucid-evolution/core-utils" "0.1.16"
     "@sinclair/typebox" "^0.32.28"
 
-"@lucid-evolution/provider@0.1.52", "@lucid-evolution/provider@^0.1.52":
-  version "0.1.52"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/provider/-/provider-0.1.52.tgz#36206d01ae9cc535c0d409e9cbbad2da8764a28e"
-  integrity sha512-m8nUK/yOVO7QvyZtytip52YayLSKyMOe4TtclMmk0rGsTQcY3HXrMbZ47r6/9DF90VO8k6gOkFPjdgZAcWazEA==
+"@lucid-evolution/provider@0.1.60", "@lucid-evolution/provider@^0.1.60":
+  version "0.1.60"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/provider/-/provider-0.1.60.tgz#9cbfb053150b304658f25c86c9da6f0a0f8031f1"
+  integrity sha512-qvJjChXPeH7EsBgfx2yprAjxaeaKAitBncQpo2N3Ti1aoa6do8MT+0JEZ0ycjbPLHscz7rwqLov83LkaocmRrw==
   dependencies:
-    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-1"
-    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-1"
+    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-2"
+    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-2"
     "@effect/platform" "^0.59.2"
     "@effect/schema" "^0.68.26"
-    "@lucid-evolution/core-types" "0.1.17"
-    "@lucid-evolution/core-utils" "0.1.15"
-    "@lucid-evolution/utils" "0.1.39"
-    "@lucid-evolution/wallet" "0.1.44"
+    "@lucid-evolution/core-types" "0.1.20"
+    "@lucid-evolution/core-utils" "0.1.16"
+    "@lucid-evolution/utils" "0.1.45"
+    "@lucid-evolution/wallet" "0.1.51"
     effect "^3.5.6"
 
-"@lucid-evolution/sign_data@0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/sign_data/-/sign_data-0.1.20.tgz#280d277a84351c2f055c29db8b1ed135300a37fa"
-  integrity sha512-zpOtRaoGLIMGU921iH9LQcEr6w34/H2ByAHxU7UMT4IBvtA2UnMz+4YUgVTTNr51/laa0BZ2naCv90PDyX4PLg==
+"@lucid-evolution/sign_data@0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/sign_data/-/sign_data-0.1.23.tgz#39436e404867a8cc1f16d08d68bac14286d8cc30"
+  integrity sha512-V1dreDntGRgVV3nArdFVH3LC83jSNZeTCPVf3Mr9FjnRXmRbGdqjptMjdVKJSVkCxNAFsWHCgYSnB3p0Y0m5bg==
   dependencies:
-    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-1"
-    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-1"
+    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-2"
+    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-2"
     "@emurgo/cardano-message-signing-browser" "^1.0.1"
     "@emurgo/cardano-message-signing-nodejs" "^1.0.1"
-    "@lucid-evolution/core-types" "0.1.17"
-    "@lucid-evolution/core-utils" "0.1.15"
+    "@lucid-evolution/core-types" "0.1.20"
+    "@lucid-evolution/core-utils" "0.1.16"
 
-"@lucid-evolution/uplc@0.2.11":
-  version "0.2.11"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/uplc/-/uplc-0.2.11.tgz#4d37cb80603eef9d4cc1e2228edbad01d50e7a94"
-  integrity sha512-c1ByCOEu15wxo48+GEm5wwI6LlFVYQdaTSZFKPvZfKGKDMRbpToYxbKJnSIinI21Z4DID/a0pKmKT8JDBodkhw==
+"@lucid-evolution/uplc@0.2.13":
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/uplc/-/uplc-0.2.13.tgz#13966709ee049679b328d6d03615c7b8ef78030c"
+  integrity sha512-uMLSvU+dbwNBhGtgPrBzLp1avs1KmXegDuPzoNSQJkjkctReip+epcZ21is/gUOYlZysShc2p0QUlpXgFmcipg==
 
-"@lucid-evolution/utils@0.1.39", "@lucid-evolution/utils@^0.1.39":
-  version "0.1.39"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/utils/-/utils-0.1.39.tgz#f70be7ade13329d77723128f47448dc9166926f3"
-  integrity sha512-wlALOGVvDp7Gd+GTQ0RsdcNX8/t12w9118IhL9kDoh6UBWvrpLeTH0CBVh1P/VQuLEIl6CtVhScKPKVd+UuEQQ==
+"@lucid-evolution/utils@0.1.45", "@lucid-evolution/utils@^0.1.45":
+  version "0.1.45"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/utils/-/utils-0.1.45.tgz#c29e07361fae2d036f374396be219d592ce52a05"
+  integrity sha512-DkqMxmvMAEaCauWlScKJBilrLVlPnbEa03w9MPmjQxdcasb8sUO3Ei95x4TAsJLC7ot7NY9WOWmRqwFX0KndhQ==
   dependencies:
-    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-1"
-    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-1"
+    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-2"
+    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-2"
     "@effect/schema" "^0.68.16"
-    "@emurgo/cardano-serialization-lib-browser" "^11.5.0"
-    "@emurgo/cardano-serialization-lib-nodejs" "^11.5.0"
     "@harmoniclabs/plutus-data" "^1.2.4"
     "@harmoniclabs/uplc" "^1.2.4"
-    "@lucid-evolution/core-types" "0.1.17"
-    "@lucid-evolution/core-utils" "0.1.15"
+    "@lucid-evolution/core-types" "0.1.20"
+    "@lucid-evolution/core-utils" "0.1.16"
     "@lucid-evolution/crc8" "0.1.8"
-    "@lucid-evolution/plutus" "0.1.23"
-    "@lucid-evolution/uplc" "0.2.11"
+    "@lucid-evolution/plutus" "0.1.26"
+    "@lucid-evolution/uplc" "0.2.13"
     bip39 "^3.1.0"
     cborg "^4.2.0"
     effect "^3.1.2"
 
-"@lucid-evolution/wallet@0.1.44", "@lucid-evolution/wallet@^0.1.44":
-  version "0.1.44"
-  resolved "https://registry.yarnpkg.com/@lucid-evolution/wallet/-/wallet-0.1.44.tgz#c6a8dfbdb93eb7b44fa2e5d3bef9918f6807e26c"
-  integrity sha512-uVTYZwlX2wsscKj96+dLHbyfM5Rm+euweGo0JfmKMR2iK964970g6ergDO++1qA21DNqO2qcx9/jajbdI2oDrw==
+"@lucid-evolution/wallet@0.1.51", "@lucid-evolution/wallet@^0.1.51":
+  version "0.1.51"
+  resolved "https://registry.yarnpkg.com/@lucid-evolution/wallet/-/wallet-0.1.51.tgz#509f705a6f705b7b7412748ab031a2dcd9975776"
+  integrity sha512-i/kg/9nqi+r9izvnfShoTTEP8U57tXJw3yIISmpXboW9VktUduOqHqZqDkzcZUIiIoBxhnl2MTMu+1251Nzavw==
   dependencies:
-    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-1"
-    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-1"
-    "@lucid-evolution/core-types" "0.1.17"
-    "@lucid-evolution/core-utils" "0.1.15"
-    "@lucid-evolution/sign_data" "0.1.20"
-    "@lucid-evolution/utils" "0.1.39"
+    "@anastasia-labs/cardano-multiplatform-lib-browser" "6.0.2-2"
+    "@anastasia-labs/cardano-multiplatform-lib-nodejs" "6.0.2-2"
+    "@lucid-evolution/core-types" "0.1.20"
+    "@lucid-evolution/core-utils" "0.1.16"
+    "@lucid-evolution/sign_data" "0.1.23"
+    "@lucid-evolution/utils" "0.1.45"
     bip39 "^3.1.0"
 
 "@next/env@14.2.4":
